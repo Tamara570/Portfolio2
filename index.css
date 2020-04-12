@@ -1,0 +1,111 @@
+body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  nav {
+    opacity: 70%;
+    position: fixed;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Inconsolata', monospace;
+    width: 100%;
+    background-color: rgba(226, 186, 226, 0.466);
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  nav a {
+    float: left;
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 23px;
+    width: 33.33%;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    text-shadow: 2px 2px rgba(134, 114, 143, 0.521);
+  }
+
+  div {
+    width: 50%;
+    display: inline-block;
+    margin: auto;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.507);
+    border: rgb(250, 250, 250) solid 2px;
+  }
+
+
+  
+  .bio,
+  .individual,
+  .reachout {
+    padding: 50px;
+  }
+
+  main {
+    padding: 100px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /*section {
+    min-height: 200px;
+  }*/
+
+  p {
+    text-align: left;
+    font-size: 14px;
+    color: rgb(85, 42, 165);
+    font-family: 'Comic Neue', cursive;
+  }
+
+  
+  .individual,
+  .reachout {
+    max-width:100%;
+
+  }
+
+  h1 {
+    text-shadow: 2px 2px rgba(134, 114, 143, 0.521);
+    color: rgb(134, 114, 143);
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  h3 {
+    color: rgba(134, 114, 143, 0.658);
+  }
+ 
+ 
+  @media screen and (min-width: 520px) {
+
+
+    .image {
+      float: left;
+      margin-right: 10px;
+      width: 75%;
+    }
+
+    .self {
+      float: left;
+      margin-right: 10px;
+      width: 40%;
+    }
+
+    div {
+      width: 60%;
+    }
+  }
